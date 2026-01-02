@@ -1,0 +1,103 @@
+.main{
+    background: linear-gradient(318deg,rgba(0, 0, 0, 1) 0%, rgba(110, 0, 150, 1) 60%, rgb(185, 1, 160) 100%);
+    width: 100%;
+    min-height: 93vh;
+    z-index: 1;
+}
+.h1{
+    color: white;
+    text-align: center;
+    padding:30px;
+    font-size: 35pt;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.opin_cont{
+    padding: 10px;
+    height: 72vh;
+    width: 26%;
+    background: rgba(255, 255, 255, 0.231);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+    margin: 30px;
+    margin-top: 0px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.187);
+    transition-duration: 0.3s;
+}
+.pc_img{
+    height: 65%;
+    width: 90%;
+    background-image: url(../../public/opin_pc1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+.opin_img{
+    height: 28%;
+    width: 90%;
+    background-image: url(../../public/opin1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+.opin_cont:hover{
+    box-shadow: 0px 0px 5px 6px rgba(92, 92, 92, 0.187);
+}
+@media (min-width: 1100px){
+    .opin_cont{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 1100px){
+    .opin_cont{
+        width: 40%;
+        height: 70vh;
+    }
+}
+@media (max-width: 800px){
+    .opin_cont{
+        width: 50%;
+        height: 70vh;
+    }
+    .container{
+        justify-content: center;
+    }
+}
+@media (max-width: 650px){
+    .opin_cont{
+        width: 70%;
+        height: 70vh;
+    }
+    .container{
+        justify-content: center;
+    }
+}
+@media (max-width: 450px){
+    .opin_cont{
+        width: 85%;
+        height: 70vh;
+    }
+    .container{
+        justify-content: center;
+    }
+}
+@media (max-width: 400px){
+    .opin_cont{
+        width: 85%;
+        height: 70vh;
+    }
+    .container{
+        justify-content: center;
+    }
+}
