@@ -42,6 +42,15 @@
     backdrop-filter: blur(10px);
     z-index: 2;
 }
+/* .whatsapp{
+    color: rgba(214, 255, 214, 0.795);
+}
+.fb{
+    color: rgba(0, 34, 255, 0.523);
+} */
+.inst{
+    
+}
 .contact_inf{
     font-size: 13pt;
     font-weight: bold;

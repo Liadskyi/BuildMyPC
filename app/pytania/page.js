@@ -30,7 +30,7 @@ Zgodnie z naszą umową (§5 pkt 6), Twoim obowiązkiem jest sprawdzenie stanu z
 
 Jeśli widzisz wgniecenia, rozdarcia lub dziury w kartonie - koniecznie poproś kuriera o spisanie protokołu szkody (protokół szkody) na miejscu. Bez tego dokumentu kurier nie uzna reklamacji za uszkodzenia mechaniczne powstałe w transporcie.
 <br/><br/>
-2:Pierwsze uruchomienie <br/>
+2: Pierwsze uruchomienie <br/>
 Zgodnie z umową, masz 24 godziny od momentu otrzymania przesyłki na zgłoszenie mi jakichkolwiek zastrzeżeń technicznych.
 
 <br/>- Po rozpakowaniu usuń wszystkie materiały opakowaniowe ze środka (np. folię bąbelkową, pianki zabezpieczające kartę graficzną). Odczekaj ok. 1 godziny, aż komputer osiągnie temperaturę pokojową (szczególnie zimą), aby uniknąć kondensacji pary wodnej.

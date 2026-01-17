@@ -346,7 +346,7 @@ function config() {
                         </div>
                     </div>
                     <div className={styles.cena}>
-                        Cena: 3800zl-4500zl + 300zl
+                        Cena całej jednostki: 3800zl-4500zl + 300zl
                     </div>
                 </div>
 
@@ -375,7 +375,7 @@ function config() {
                         </div>
                     </div>
                     <div className={styles.cena}>
-                        Cena: 4500zl-5000zl + 8% ceny
+                        Cena całej jednostki: 5000zl-5500zl + 8% ceny
                     </div>
                 </div>
 
@@ -404,7 +404,7 @@ function config() {
                         </div>
                     </div>
                     <div className={styles.cena}>
-                        Cena: 6000zl-6500zl + 8% ceny
+                        Cena całej jednostki: 5900zl-6500zl + 8% ceny
                     </div>
                 </div>
 
@@ -433,10 +433,11 @@ function config() {
                         </div>
                     </div>
                     <div className={styles.cena}>
-                        Cena: 9000zl-10000zl + 8% ceny
+                        Cena całej jednostki: 8900zl-10000zl + 8% ceny
                     </div>
                 </div>
             </div>
+            <div className={styles.dane}>Ceny aktualne na dzień 16.01.2026, mają charakter orientacyjny i mogą różnić się od ceny końcowej</div>
         </main>
     );
 }

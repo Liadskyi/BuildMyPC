@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className={styles.btn_block}>
           <a className={styles.btn} href="zamowic">Jak zamówić ?</a>
-          <a className={styles.btn} href="konfiguracje">konfiguracje</a>
+          <a className={styles.btn} href="konfiguracje">Konfiguracje</a>
           <a className={styles.btn} href="opinie">Opinie</a>
           <a className={styles.btn} href="pytania">Pytania</a>
         </div>
