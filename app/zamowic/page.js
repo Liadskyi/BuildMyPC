@@ -16,7 +16,7 @@ Podajesz mi parę procesor + GPU, podpisujemy umowę, a ja dobieram pozostałe k
  Cena usługi: 300 zł dla komputerów do 4500 zł, powyżej 4500 zł - 8% wartości komponentów.<br/><br></br>
 3: Nie wiesz, jaki procesor + karta graficzna będą najlepsze
 Mówisz mi swoje potrzeby - ja proponuję odpowiednią parę CPU + GPU, podpisujemy umowę, a ja dobieram całą konfigurację i składam komputer tak jak w opcji 1.
- Cena usługi: 300 zł dla komputerów do 4000 zł, powyżej 4000 zł -8% wartości komponentów.<br></br><br></br>
+ Cena usługi: 300 zł dla komputerów do 4500 zł, powyżej 4500 zł -8% wartości komponentów.<br></br><br></br>
 Aby złożyć zamówienie, zapraszam do kontaktu!
 
 
