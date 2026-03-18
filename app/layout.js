@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Build My PC</title>
         <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+        <meta name="google-site-verification" content="UDZuWV0SY1Uvh9RdKcTEUGJ6otpWTZ_kHiUuZnp5B5c" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
