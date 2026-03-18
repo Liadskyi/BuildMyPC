@@ -1,7 +1,7 @@
 .main{
     background: linear-gradient(318deg,rgba(0, 0, 0, 1) 0%, rgba(110, 0, 150, 1) 60%, rgb(185, 1, 160) 100%);
     width: 100%;
-    min-height: 93vh;
+    min-height: 95vh;
     z-index: 1;
 }
 .h1{

@@ -1,11 +1,12 @@
 .main{
     width: 100%;
-    min-height: 7vh;
+    min-height: 60px;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2% 0 2%;
+    position: relative;
 }
 .name{
     font-weight: bold;
@@ -15,15 +16,24 @@
     
 }
 .contact{
-    transition-duration: 0.3s;
-    font-size: 15pt;
-    margin: 5px;
-    color: white;
-    cursor: pointer;
-    background-color: #683396;
-    padding: 8px;
-    border-radius: 10px;
+    padding: 8px 20px;
+  border-radius: 50px; /* Округлая, как Promocja */
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  
+  /* Основной стиль: Прозрачный фон и светящаяся рамка */
+  background: transparent;
+  color: #ffffff; /* Цвет текста — яркий неон */
+  border: 2px solid #d000ff; /* Рамка */
+  
+  /* Легкое свечение */
+  box-shadow: 0 0 10px rgba(255, 0, 204, 0.4);
+  transition: all 0.3s ease;
 }
+
 .contact_cont{
     animation-duration: 0.5s;
     transition-duration: 0.5s;
@@ -32,9 +42,10 @@
     min-height: 30%;
     min-width: 20%;
     position: absolute;
-    top: 22%;
-    left: 88%;
-    transform: translate(-50%, -50%);
+    top: 100%;
+    right: 2%;
+    /* left: 88%; */
+    /* transform: translate(-50%, -50%); */
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -42,6 +53,51 @@
     box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.674);
     backdrop-filter: blur(10px);
     z-index: 2;
+}
+.promocja {
+    display: flex;
+    margin-left: 10px;
+  /* Базовые стили: размер, шрифт */
+  padding: 10px 15px ;
+  border-radius: 50px; /* Форма таблетки */
+  text-transform: uppercase;
+  font-weight: 800; /* Жирнее, чтобы лучше читалось */
+  font-size: 11px;
+  letter-spacing: 1px; /* Чуть шире буквы */
+  border: none;
+  cursor: pointer;
+  color: white; /* Цвет текста */
+  transition-duration: 0.3s;
+
+  /* Неоновый градиент (цвет из Варианта 1) */
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+
+  /* Подключение анимации (длится 2 секунды, повторяется бесконечно) */
+  animation: pulse-glow-animation 2s infinite ease-in-out;
+}
+
+/* Стили при наведении (эффект усиливается) */
+.promocja:hover {
+  animation: none; /* Отключаем пульсацию */
+  transform: scale(1.05); /* Кнопка немного увеличивается */
+  box-shadow: 0 0 25px rgba(255, 0, 204, 0.8), 0 0 10px rgba(51, 51, 255, 0.5); /* Сильное двойное свечение */
+}
+
+/* Определение анимации пульсации */
+@keyframes pulse-glow-animation {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 204, 0.6), 0 0 0 0 rgba(51, 51, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px 5px rgba(255, 0, 204, 0.5), 0 0 8px 3px rgba(51, 51, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 204, 0.6), 0 0 0 0 rgba(51, 51, 255, 0.3);
+  }
+}
+.links_cont{
+    display: flex;
+    align-items: center;
 }
 /* .whatsapp{
     color: rgba(214, 255, 214, 0.795);
@@ -64,23 +120,33 @@
 .cl{
     text-decoration: underline;
 }
-@media (hover: hover){
-    .contact:hover{
-    color: rgba(255, 255, 255, 0.886);
-    background-color: #4b246d;
-    }
-}
+
 
 @media (max-width: 701px){
     .contact_cont{
         width: 60%;
-        left: 68%
+        
     }
 }
 @media (max-width: 501px){
     .contact_cont{
         width: 80%;
-        left: 58%
+        
+    }
+}
+
+
+
+
+
+
+
+
+@media (hover: hover){
+    .contact:hover{
+    background: #ff00cc;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 0, 204, 0.7);
     }
 }
 
@@ -88,6 +154,6 @@
 @media (hover: none) and (pointer: coarse) {
     .contact{
         color: rgba(255, 255, 255, 0.886);
-        background-color: #683396;
+        background-color: #68339600;
 }
 }

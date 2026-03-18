@@ -1,8 +1,19 @@
+
 .main{
     width: 100vw;
     min-height: 95vh;
     background: linear-gradient(150deg,rgba(0, 0, 0, 1) 0%, rgba(110, 0, 150, 1) 58%, rgba(150, 0, 130, 1) 100%);
     display: flex;
+    flex-direction: column;
+}
+.info_cont{
+    display: flex;
+}
+.name{
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 .left{
     height: 100%;
@@ -23,6 +34,10 @@
 }
 
 @media (max-width: 768px){
+    .info_cont{
+        flex-direction: column;
+        align-items: center;
+    }
     .main{
         flex-direction: column;
         align-items: center;
@@ -34,5 +49,8 @@
     }
     .text{
         font-size: 13pt;
+    }
+    .name{
+    font-size: 30pt;
     }
 }

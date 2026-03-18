@@ -25,8 +25,12 @@ function Header() {
 
     return (
         <main className={styles.main}>
+            <div className={styles.links_cont}>
             <a className={styles.name} href="../">Build My PC</a>
+            <a className={styles.promocja} href="../promocja">PROMOCJA</a>
+            </div>
             <div className={styles.contact} onClick={contact_open}>Kontakt</div>
+            
             {isVis && <Contactel opac={opacity}/>}
         </main>
     );

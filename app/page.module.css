@@ -19,7 +19,7 @@
 
 .main {
   display: flex;
-  min-height: 93vh;
+  min-height: 95vh;
   width: 100%;
   flex-direction: column;
   align-items: flex-start;
@@ -81,7 +81,6 @@
   transition-duration: 0.3s;
   width: 16%;
   height: 30%;
-  background-color: #936CFF;
   border-radius: 10px;
   color: white;
   font-size: 15pt;
@@ -92,17 +91,42 @@
   min-width: 150px;
   margin: 10px;
   cursor: pointer;
+  /* background: linear-gradient(135deg, rgba(255, 0, 204, 0.277), rgba(51, 51, 255, 0.277)); */
+  opacity: 1;
+    
+    /* Легкое, объемное свечение */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 0, 204, 0.3);
+    backdrop-filter: blur(5px); /* Эффект матового стекла */
+    transition: all 0.3s ease-in-out; /* Плавная анимация */
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  /* Цвет, на который хотим изменить (неон) */
+  background: linear-gradient(45deg, #ff00cc, #3333ff); 
+  opacity: 0.2; /* Изначально не видно */
+  border-radius: 10px;
+  z-index: -1;
+  transition: opacity 0.5s ease; /* ВОТ ОНА ПЛАВНОСТЬ */
 }
 @media (hover: hover){
     .btn:hover{
-    color: rgba(255, 255, 255, 0.886);
-    background-color: #936cffac;
+      opacity: 1;
+    transform: translateY(-5px); /* Кнопка «всплывает» */
+    
+    border-color: #ff00cc;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 0, 204, 0.6);
     }
+
+    .btn:hover::before {
+      opacity: 0.3;
 }
+}
+
 @media (hover: none) and (pointer: coarse) {
-    .btn{
-      color: rgba(255, 255, 255, 0.886);
-      background-color: #936CFF;
+    .btn::before{
+      opacity: 0.3;
 }
 }
 @media (max-width: 1400px){
