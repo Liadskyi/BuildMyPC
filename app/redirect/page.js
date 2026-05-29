@@ -16,6 +16,7 @@ function opin() {
                 </div>
                 <div className={`${styles.btn} ${styles.inst}`}>
                     <a href="https://www.instagram.com/build_my_pc256/" className={styles.link}>Instagram</a>
+                    {/* test */}
                 </div>
             </div>
         </main>
